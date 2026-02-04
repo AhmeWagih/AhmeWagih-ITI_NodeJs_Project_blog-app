@@ -71,36 +71,6 @@ A production-ready RESTful API for a blogging platform, built with Node.js, Expr
    docker-compose up --build
    ```
    
-2. Access the API at `http://localhost:3001` (App) and MongoDB at `localhost:27017`.
-
-## 🔑 Environment Variables (.env)
-
-```env
-PORT=3000
-NODE_ENV=development
-
-# Database
-MONGO_URL=mongodb://localhost:27017
-DATABASE_NAME=blog_db
-
-# Security
-JWT_SECRET=your_super_secret_jwt_key
-JWT_EXPIRES_IN=90d
-
-# ImageKit
-IMAGEKIT_PUBLIC_KEY=your_public_key
-IMAGEKIT_PRIVATE_KEY=your_private_key
-IMAGEKIT_URL_ENDPOINT=your_url_endpoint
-
-# Email (SMTP)
-SMTP_HOST=smtp.mailtrap.io
-SMTP_PORT=2525
-SMTP_USER=your_smtp_user
-SMTP_PASS=your_smtp_password
-EMAIL_FROM=noreply@blogapp.com
-FRONTEND_URL=http://localhost:3000
-```
-
 ## 📡 Key API Endpoints
 
 ### Auth
